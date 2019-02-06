@@ -8,7 +8,26 @@
   <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-  <h1>Bills Todo</h1>
+  <header>
+    <h1>Bills Todo</h1>
+  </header>
+  <main>
+    <section>
+      <div>
+        <h2>To pay</h2>
+        <ul id="unpaid-list" class="list-container">
+          <li class="item" draggable=true>Car Bill</li>
+          <li class="item" draggable=true>Mortgage</li>
+          <li class="item" draggable=true>Internet</li>
+          <li class="item" draggable=true>Phone service</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Have been paid</h2>
+        <ul id="paid-list" class="list-container"></ul>
+      </div>
+    </section
+  </main>
   <script src="main.js"></script>
 </body>
 </html>
