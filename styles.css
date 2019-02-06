@@ -1,0 +1,41 @@
+body {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section ul {
+  width: 150px;
+  height: 500px;
+  margin-right: 20px;
+  border: 3px solid black;
+}
+main section ul li {
+  cursor: pointer;
+  margin: 10px 5px;
+}
+.hold {
+  border: 3px solid goldenrod;
+}
+.hovered {
+  background-color: #f4f4f4;
+  border-style: dashed;
+}
+.invisible {
+  display: none;
+}
+ul#paid-list {
+  color: gray;
+  text-decoration: line-through;
+}
